@@ -17,10 +17,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "antdesign.bug.repro.example"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "android": {
+      "package": "andesign.bug.repro.example"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
   }
 }
